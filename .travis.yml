@@ -3,7 +3,7 @@ language: dart
 before_install:
   - nvm install 12
   - npm install -g firebase-tools --no-optional
-  - pub global activate webdev
+  - dart pub global activate webdev
   - chmod +x ./tool/deploy.sh
 
 deploy:
