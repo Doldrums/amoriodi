@@ -1,0 +1,16 @@
+name: Orina_homepage
+description: Orina's homepage
+version: 1.0.0
+homepage: https://www.amoriodi.xyz
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  markdown: ^6.0.1
+  universal_io: ^2.0.4
+
+dev_dependencies:
+  build_runner: ^2.3.3
+  build_web_compilers: ^3.2.7
+  lints: ^2.0.1
