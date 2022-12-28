@@ -10,6 +10,13 @@ html, body {
 }
 #output {
   padding: 20px;
+  padding-top: 60px;
   text-align: start;
 }
+#hp  {
+  padding-top: 60px;
+  object-fit: cover;
+  float: right;    
+   margin: 0 0 0 15px;
+  }
 

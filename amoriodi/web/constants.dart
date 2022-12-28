@@ -1,16 +1,16 @@
 class Constants {
   const Constants._();
 
-  static String content() => """
-     ![](https://i.imgur.com/QFcAY59.jpg)
-     
+  static String content() => """  
 # A/Orina
 
 Hi! I'm Arina, 19 y.o. Ima pro&shy;gram&shy;ming buff with formal train&shy;ing
 in nothing. But i do my best doing something my whole life actually. 
-Now I’m based in Innopolis (void city). And! i have an incredible cat.
+Now I’m based in Innopolis (void city). And! i have an incredible cat named Musya (look at right side).
+  
+</br>
 
-## Open Source Projects - where I had the honor of participating
+### Open Source Projects - where I had the honor of participating
 
 ---------
 Recent:
@@ -24,7 +24,7 @@ Recent:
 
 to be continued..
 
-## Silly Experiments
+### Silly Experiments
 
 ---------
 Recent:
@@ -37,7 +37,7 @@ Recent:
 
 Older: [Github](https://github.com/Doldrums/) &mdash; all other stupid stuff
 
-## Social
+### Social
 
 ---------
 * [Github](https://github.com/Doldrums/)
@@ -45,13 +45,13 @@ Older: [Github](https://github.com/Doldrums/) &mdash; all other stupid stuff
 * [Codewars](https://www.codewars.com/users/amoriodi/)
 * [Pub (not all public nowadays tho)](https://pub.dev/publishers/amoriodi.xyz/packages/)
 
-## Publications
+### Publications
 
 * **Automatically Prioritizing and Assigning Tasks from Code Repositories in Puzzle Driven Development** in 2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR), Pittsburgh, PA, USA, 2022 pp. 722-723.
 * **Prioritizing Tasks in Software Development: a Systematic Literature Review** [Internet]. IEEE Dataport; 2022. Available from : https://dx.doi.org/10.21227/kyse-2a84
 * **State-of-the-art review of taxonomies for quality assessment of intelligent software systems** in IISEC 2022 : 3rd International Informatics and Software Engineering Conference
 
-## About this page
+### About this page
 
 ---------
 
