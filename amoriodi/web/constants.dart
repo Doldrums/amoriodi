@@ -47,9 +47,9 @@ Older: [Github](https://github.com/Doldrums/) &mdash; all other stupid stuff
 
 ### Publications
 
-* **Automatically Prioritizing and Assigning Tasks from Code Repositories in Puzzle Driven Development** in 2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR), Pittsburgh, PA, USA, 2022 pp. 722-723.
-* **Prioritizing Tasks in Software Development: a Systematic Literature Review** [Internet]. IEEE Dataport; 2022. Available from : https://dx.doi.org/10.21227/kyse-2a84
-* **State-of-the-art review of taxonomies for quality assessment of intelligent software systems** in IISEC 2022 : 3rd International Informatics and Software Engineering Conference
+* [Automatically Prioritizing and Assigning Tasks from Code Repositories in Puzzle Driven Development](https://ieeexplore.ieee.org/document/9796201) in 2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR), Pittsburgh, PA, USA, 2022 pp. 722-723.
+* [Prioritizing Tasks in Software Development: a Systematic Literature Review](https://ieee-dataport.org/documents/prioritizing-tasks-software-development-systematic-literature-review) IEEE Dataport; 2022. Available from : https://dx.doi.org/10.21227/kyse-2a84
+* [State-of-the-art review of taxonomies for quality assessment of intelligent software systems](https://iisec.tbdakademi.org.tr/2022/wp-content/uploads/2022/12/IISEC2022-PROGRAM_v16_22.12.2022.pdf) in IISEC 2022 : 3rd International Informatics and Software Engineering Conference
 
 ### About this page
 

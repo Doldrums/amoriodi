@@ -1,5 +1,8 @@
+.DS_Store
 .dart_tool/package_config.json
 .packages
+img/.DS_Store
+img/musya.jpg
 index.html
 main.dart.js
 packages/$sdk/_internal/strong.sum
