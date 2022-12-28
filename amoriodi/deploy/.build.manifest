@@ -1,6 +1,7 @@
 .DS_Store
 .dart_tool/package_config.json
 .packages
+favicon.ico
 img/.DS_Store
 img/musya.jpg
 index.html
