@@ -19,7 +19,7 @@ Recent:
 * [0capa-beta](https://0capa.ru/) Theoretically Objective Measurements (TOM) of Software Development Projects Assistant
 * [BLE Reader](https://pub.dev/packages/ble_reader) plugin for peripheral mode and stream data received via Bluetooth Low Energy (BLE) connection
 * [Planty](https://planty-263d3.web.app/#/) [Not released] Flutter app
-* [BetterRultor.](https://rultor.pro/#/) [LOL] kinda joke realization of [Rutlor original](https://www.rultor.com/)
+* [BetterRultor.](https://rultor.pro/#/) [LOL] kinda joke realization of [Rultor original](https://www.rultor.com/)
 * [Park At](https://parkat.ru/) Flutter Parking App
 
 to be continued..
