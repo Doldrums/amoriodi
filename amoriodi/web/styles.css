@@ -46,10 +46,7 @@ body {
   right: 0;
   width: 60%;
   transform: translateY(-50%);
-  /* Adjust as needed */
   height: 400px;
-  /* Adjust as needed */
-  /* other styles */
 }
 
 /* Style for the list items */
@@ -61,6 +58,7 @@ body {
   /* Change cursor to indicate it's clickable or hoverable */
   transition: color 0.3s ease;
   /* Smooth transition for text color */
+  text-decoration: underline;
 }
 
 /* Style for list items on hover */

@@ -59,16 +59,16 @@ void main() async {
 
 void displayVideoForProject(String projectName, DivElement videoContainer) {
   Map<String, String> projectVideos = {
-    "VTB Hack, Money Transfer":
-        "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+    "VTB Hack, Money Transfer Way":
+        "https://github.com/Doldrums/amoriodi/raw/master/videos/transfer.mp4",
     "Workarounds regarding Digital Human as Service SDK":
-        "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+        "https://github.com/Doldrums/amoriodi/raw/master/videos/dhaas.mp4",
     "VTB Hack, Finance Assistant":
-        "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+        "https://github.com/Doldrums/amoriodi/raw/master/videos/assistant.mp4",
     "Arc Mobile Fun Edition":
-        "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+        "https://github.com/Doldrums/amoriodi/raw/master/videos/browser.MP4",
     "MTS TrueTechHack, Tiflocomments for Kion Streaming Service":
-        "https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4",
+        "https://github.com/Doldrums/amoriodi/raw/master/videos/kion.mp4",
   };
 
   String videoUrl = projectVideos[projectName] ?? '';
