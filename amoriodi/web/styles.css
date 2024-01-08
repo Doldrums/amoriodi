@@ -1,22 +1,85 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Exo);
 
-html, body {
-  height:100%;
-  max-width: 600px;
+html,
+body {
+  height: 100%;
+  max-width: 720px;
   margin: auto;
-  font-family: Optima;
+  font-family: 'Exo';
   font-size: 1.0em;
-
+  padding: 40px 20px;
 }
+
+.image-row {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+
+.image {
+  object-fit: cover;
+  height: auto;
+  max-width: 150px;
+  width: 40vw;
+}
+
 #output {
-  padding: 20px;
-  padding-top: 60px;
   text-align: start;
 }
-#hp  {
+
+#hp {
   padding-top: 60px;
   object-fit: cover;
-  float: right;    
-   margin: 0 0 0 15px;
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  /* other styles */
+}
+
+#videoContainer {
+  position: fixed;
+  right: 0;
+  width: 60%;
+  transform: translateY(-50%);
+  /* Adjust as needed */
+  height: 400px;
+  /* Adjust as needed */
+  /* other styles */
+}
+
+/* Style for the list items */
+#projectList li {
+  /* Basic styling for the list items */
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  /* Change cursor to indicate it's clickable or hoverable */
+  transition: color 0.3s ease;
+  /* Smooth transition for text color */
+}
+
+/* Style for list items on hover */
+#projectList li:hover {
+  color: #007bff;
+  /* Change text color on hover */
+  /* Additional styles for hover effect (e.g., change background color, font weight, etc.) */
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
   }
 
+  #projectList,
+  #videoContainer {
+    width: 100%;
+  }
+}
