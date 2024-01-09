@@ -23,28 +23,23 @@ void main() async {
   querySelector('#header')!.setInnerHtml(markdownToHtml(Constants.header()),
       validator: htmlValidator);
 
-  final UListElement projectList =
-      querySelector('#projectList') as UListElement;
+  final OListElement projectList =
+      querySelector('#projectList') as OListElement;
   final DivElement videoContainer =
       querySelector('#videoContainer') as DivElement;
 
-  final List<String> projects = [
-    "VTB Hack, Money Transfer Way",
-    "Workarounds regarding Digital Human as Service SDK",
-    "VTB Hack, Finance Assistant",
-    "Arc Mobile Fun Edition",
-    "MTS TrueTechHack, Tiflocomments for Kion Streaming Service",
-  ];
-
-  for (var projectName in projects) {
-    final LIElement listItem = LIElement()..text = projectName;
-
+  for (var project in Constants.projectsList()) {
+    final LIElement listItem = LIElement();
+    final HeadingElement title = HeadingElement.h4()..text = project.title;
+    final ParagraphElement subTitle = ParagraphElement()
+      ..text = project.description;
+    listItem.children.addAll([title, subTitle]);
     listItem.onMouseOver.listen((MouseEvent event) {
       final itemPosition = min(max(listItem.getBoundingClientRect().top, 100),
           window.innerHeight ?? 400 - 400);
       videoContainer.style.top = '${itemPosition}px';
-      displayVideoForProject(projectName, videoContainer);
-      videoContainer.style.display = 'block';
+      displayVideoForProject(project, videoContainer);
+      videoContainer.style.display = 'flex';
     });
 
     listItem.onMouseOut.listen((MouseEvent event) {
@@ -58,33 +53,21 @@ void main() async {
       validator: htmlValidator);
 }
 
-void displayVideoForProject(String projectName, DivElement videoContainer) {
-  Map<String, String> projectVideos = {
-    "VTB Hack, Money Transfer Way":
-        "https://github.com/Doldrums/amoriodi/raw/master/videos/transfer.mp4",
-    "Workarounds regarding Digital Human as Service SDK":
-        "https://github.com/Doldrums/amoriodi/raw/master/videos/dhaas.mp4",
-    "VTB Hack, Finance Assistant":
-        "https://github.com/Doldrums/amoriodi/raw/master/videos/assistant.mp4",
-    "Arc Mobile Fun Edition":
-        "https://github.com/Doldrums/amoriodi/raw/master/videos/browser.MP4",
-    "MTS TrueTechHack, Tiflocomments for Kion Streaming Service":
-        "https://github.com/Doldrums/amoriodi/raw/master/videos/kion.mp4",
-  };
-
-  String videoUrl = projectVideos[projectName] ?? '';
-
-  if (videoUrl.isNotEmpty) {
+void displayVideoForProject(ProjectDetails project, DivElement videoContainer) {
+  if (project.videoLink.isNotEmpty) {
     VideoElement video = VideoElement()
-      ..src = videoUrl
+      ..src = project.videoLink
       ..autoplay = true
-      ..style.width = '100%'
-      ..style.height = '100%'
+      ..style.maxWidth = '400px'
+      ..style.maxHeight = '400px'
       ..muted = true
       ..setAttribute('playsinline', 'true');
-
-    videoContainer.children.clear();
-    videoContainer.children.add(video);
+    ParagraphElement subTitle = ParagraphElement()
+      ..innerText = project.subTitle;
+    videoContainer.children
+      ..clear()
+      ..add(video)
+      ..add(subTitle);
   } else {
     videoContainer.text = 'Video not available for this project';
   }
